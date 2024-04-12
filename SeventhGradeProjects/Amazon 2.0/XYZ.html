@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="MYWEBSITESTYLE.css" rel = "stylesheet" type="text/css"/>
+        <center><h1 align = "center"><FONT COLOR = "#ff0000">Omazon</FONT COLOR></h1> </center>
+        <h3><center>Totally not a worse amazon!!</h3></center>
+        <!--<input type="button" value="Cart" style="float: left;background-color: lime;" onClick="cartClick();"></input>
+        <input type="button" value="Purchase Cart" style="float: right;background-color: lime;" onClick="purchaseClick();"></input>-->
+
+    </head>
+        <body>
+                <!--<input type="button" value="Buy Tires" style="float: right;background-color: lime;" onClick="alert('You are buying tires.');"></input>
+        <center><p> <style="font-family: Arial">This is a website! Welcome to the website, this is an experimentation.</p></center>
+                    
+                <div class = "img-right">
+                    <img src ="Gyrafoam.jpeg" width = "300" height = "200">
+                </div>
+                <div class= "img">
+                    <center><img src = "beans for days.jpeg" height = "200" width = "200"></center>
+                </div>
+                <div class="button">
+                  <input type="button" value="Add To Cart" style="float: center;background-color: lime;"onClick ="alert('Dis is being added to da cart ong');"></input>
+                </div>-->
+                <div class="div-table">
+                    <input type="button" value="Cart" style="float: left;background-color: lime;" onClick="cartClick();"></input>
+                    <input type="button" value="Purchase Cart" style="float: right;background-color: lime;" onClick="purchaseClick();"></input>
+
+                </div>
+                <div class="div-table">
+                    <div class="div-table-row">
+                        <div class="div-table-col"><img class = "image-style" src ="Gyrafoam.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "beans for days.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "octopus.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "FlippyforFlippies.jpeg"></div>
+                    </div>
+                    <div class="div-table-row">
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('A giraffe is being added to your cart:', 1032.24, 'Giraffe')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('Beans are being added to your cart:', 3, 'Beans')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('An octopus is being added to your cart:', 1342.32, 'Octopus')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('A nokia flip-phone is being added to your cart:', 32, 'Nokia flip-phone')"></input></div>                  </div>
+                    <div class="div-table-row">
+                        <div class="div-table-col"><img class = "image-style" src ="popcorn.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "burritos.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "curry30.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "tires.jpeg"></div>
+                    </div>
+                    <div class="div-table-row">
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('Popcorn is being added to your cart:', 10, 'Popcorn')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('A burrito is being added to your cart:', 12, 'Burrito')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('Curry is being added to your cart:', 5, 'Curry')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('Tires are being added to your cart:', 10, 'Tires')"></input></div>
+                    </div>
+                    <div class="div-table-row">
+                        <div class="div-table-col"><img class = "image-style" src ="tree.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "house.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "bkhaveiturway.jpeg"></div>
+                        <div  class="div-table-col"><img class = "image-style" src = "toyota.jpeg"></div>
+                    </div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('A tree is being added to your cart:', 500, 'Tree')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('A house is being added to your cart:', 1400000, 'House')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('The company of Burger King is being added to your cart:', 3000000000, 'Burger King')"></input></div>
+                        <div class="div-table-col"><input type="button" class="div-table-col-button" value="Add To Cart" style="float: center;background-color: lime;" onClick ="saySomething('A Toyota is being added to your cart', 10000,'Toyota')"></input></div>
+                    </div>
+                </div>
+                <script>
+                    // Create function saySomething
+                    var itemArray = [];
+                    var priceArray = [];
+                    var totalPrice = 0;
+                    function saySomething(whatToSay, price, name) {
+                         itemArray.push(name);
+                         priceArray.push(price);
+                        alert(whatToSay + ' ' + price);
+                    }
+
+                    function cartClick() {    
+                        //for loop in javascript to go over each item in item cart and print
+                        var text = "\n"; 
+                        for (let i = 0; i < itemArray.length; i++) {
+                            text += itemArray[i] + "\n";
+                        }
+
+                        
+                        calcPrice();
+
+                    
+                        // Define a variable called total
+
+                        //for loop in javascript to go over each price entry in price array, sum  and print
+
+                        //alert('Your cart: ' + itemArray + ': ' + priceArray);
+                        alert ("Your Cart: " + text + "Total Price: " + totalPrice + " dollars");
+
+
+                    }
+
+                    function purchaseClick() {
+                            calcPrice();
+                        
+                        var retValue = confirm("Would You Like To Buy the Items in Your Cart? Your total price is: " + totalPrice + " dollars");
+                        if(retValue == true){
+                            itemArray = [];
+                            priceArray = [];
+                            totalPrice = 0;
+                        }
+                    } 
+
+                    //Function to populate price
+                    function calcPrice(){
+                        totalPrice = 0;
+                        for (let i = 0; i < priceArray.length; i++) {
+                            totalPrice += priceArray[i];
+                        }
+                    }
+                </script>
+                
+            </script>
+                     
+    </body>
+</html>
